@@ -1,13 +1,13 @@
 <?php
 
-namespace Yansongda\Pay;
+namespace Pengxul\Pay;
 
 use Exception;
-use Yansongda\Pay\Contracts\GatewayApplicationInterface;
-use Yansongda\Pay\Exceptions\InvalidGatewayException;
-use Yansongda\Pay\Gateways\Alipay;
-use Yansongda\Pay\Gateways\Wechat;
-use Yansongda\Pay\Listeners\KernelLogSubscriber;
+use Pengxul\Pay\Contracts\GatewayApplicationInterface;
+use Pengxul\Pay\Exceptions\InvalidGatewayException;
+use Pengxul\Pay\Gateways\Alipay;
+use Pengxul\Pay\Gateways\Wechat;
+use Pengxul\Pay\Listeners\KernelLogSubscriber;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Log;
 use Yansongda\Supports\Logger;
@@ -70,7 +70,7 @@ class Pay
      */
     protected function create($method): GatewayApplicationInterface
     {
-        $gateway = __NAMESPACE__.'\\Gateways\\'.Str::studly($method);
+        $gateway = __NAMESPACE__ . '\\Gateways\\' . Str::studly($method);
 
         if (class_exists($gateway)) {
             return self::make($gateway);

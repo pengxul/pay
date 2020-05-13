@@ -1,13 +1,13 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Alipay;
+namespace Pengxul\Pay\Gateways\Alipay;
 
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Alipay;
+use Pengxul\Pay\Events;
+use Pengxul\Pay\Exceptions\GatewayException;
+use Pengxul\Pay\Exceptions\InvalidArgumentException;
+use Pengxul\Pay\Exceptions\InvalidConfigException;
+use Pengxul\Pay\Exceptions\InvalidSignException;
+use Pengxul\Pay\Gateways\Alipay;
 use Yansongda\Supports\Collection;
 
 class MiniGateway extends Gateway

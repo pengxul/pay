@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Exceptions;
+namespace Pengxul\Pay\Exceptions;
 
 class GatewayException extends Exception
 {
@@ -15,6 +15,6 @@ class GatewayException extends Exception
      */
     public function __construct($message, $raw = [], $code = self::ERROR_GATEWAY)
     {
-        parent::__construct('ERROR_GATEWAY: '.$message, $raw, $code);
+        parent::__construct('ERROR_GATEWAY: ' . $message, $raw, $code);
     }
 }

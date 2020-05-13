@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Exceptions;
+namespace Pengxul\Pay\Exceptions;
 
 class InvalidGatewayException extends Exception
 {
@@ -14,6 +14,6 @@ class InvalidGatewayException extends Exception
      */
     public function __construct($message, $raw = [])
     {
-        parent::__construct('INVALID_GATEWAY: '.$message, $raw, self::INVALID_GATEWAY);
+        parent::__construct('INVALID_GATEWAY: ' . $message, $raw, self::INVALID_GATEWAY);
     }
 }

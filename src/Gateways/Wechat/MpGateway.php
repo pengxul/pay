@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Wechat;
+namespace Pengxul\Pay\Gateways\Wechat;
 
 use Exception;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
+use Pengxul\Pay\Events;
+use Pengxul\Pay\Exceptions\GatewayException;
+use Pengxul\Pay\Exceptions\InvalidArgumentException;
+use Pengxul\Pay\Exceptions\InvalidSignException;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Str;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Alipay;
+namespace Pengxul\Pay\Gateways\Alipay;
 
 class WapGateway extends WebGateway
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Wechat;
+namespace Pengxul\Pay\Gateways\Wechat;
 
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Wechat;
+use Pengxul\Pay\Exceptions\GatewayException;
+use Pengxul\Pay\Exceptions\InvalidArgumentException;
+use Pengxul\Pay\Exceptions\InvalidSignException;
+use Pengxul\Pay\Gateways\Wechat;
 use Yansongda\Supports\Collection;
 
 class MiniappGateway extends MpGateway

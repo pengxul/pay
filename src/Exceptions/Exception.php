@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Exceptions;
+namespace Pengxul\Pay\Exceptions;
 
 class Exception extends \Exception
 {
