@@ -28,7 +28,6 @@ class AppGateway extends Gateway
      */
     public function pay($endpoint, array $payload): Response
     {
-        $payload['appid'] = Support::getInstance()->appid;
         $payload['trade_type'] = $this->getTradeType();
 
         if (Wechat::MODE_SERVICE === $this->mode) {
