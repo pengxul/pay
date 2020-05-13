@@ -1,16 +1,16 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Wechat;
+namespace Pengxul\Pay\Gateways\Wechat;
 
 use Exception;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\GatewayException;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidSignException;
-use Yansongda\Pay\Gateways\Wechat;
-use Yansongda\Supports\Str;
+use Pengxul\Pay\Events;
+use Pengxul\Pay\Exceptions\GatewayException;
+use Pengxul\Pay\Exceptions\InvalidArgumentException;
+use Pengxul\Pay\Exceptions\InvalidSignException;
+use Pengxul\Pay\Gateways\Wechat;
+use Pengxul\Supports\Str;
 
 class AppGateway extends Gateway
 {
@@ -28,7 +28,6 @@ class AppGateway extends Gateway
      */
     public function pay($endpoint, array $payload): Response
     {
-        // $payload['appid'] = Support::getInstance()->appid;
         $payload['trade_type'] = $this->getTradeType();
 
         if (Wechat::MODE_SERVICE === $this->mode) {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay;
+namespace Pengxul\Pay;
 
 use Exception;
 use Symfony\Component\EventDispatcher\EventDispatcher;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay;
+namespace Pengxul\Pay;
 
 use Yansongda\Supports\Log as BaseLog;
 

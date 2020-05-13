@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Events;
+namespace Pengxul\Pay\Events;
 
 class RequestReceived extends Event
 {

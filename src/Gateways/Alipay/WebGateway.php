@@ -1,13 +1,13 @@
 <?php
 
-namespace Yansongda\Pay\Gateways\Alipay;
+namespace Pengxul\Pay\Gateways\Alipay;
 
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use Symfony\Component\HttpFoundation\Response;
-use Yansongda\Pay\Events;
-use Yansongda\Pay\Exceptions\InvalidArgumentException;
-use Yansongda\Pay\Exceptions\InvalidConfigException;
-use Yansongda\Pay\Gateways\Alipay;
+use Pengxul\Pay\Events;
+use Pengxul\Pay\Exceptions\InvalidArgumentException;
+use Pengxul\Pay\Exceptions\InvalidConfigException;
+use Pengxul\Pay\Gateways\Alipay;
 
 class WebGateway extends Gateway
 {

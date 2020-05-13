@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Events;
+namespace Pengxul\Pays;
 
 class MethodCalled extends Event
 {

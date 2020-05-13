@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Contracts;
+namespace Pengxul\Pay\Contracts;
 
 use Symfony\Component\HttpFoundation\Response;
 use Yansongda\Supports\Collection;

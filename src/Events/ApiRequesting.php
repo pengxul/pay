@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Events;
+namespace Pengxul\Payvents;
 
 class ApiRequesting extends Event
 {

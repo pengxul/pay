@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Tests;
+namespace Pengxul\Pay\Tests;
 
-use Yansongda\Pay\Contracts\GatewayApplicationInterface;
-use Yansongda\Pay\Exceptions\InvalidGatewayException;
-use Yansongda\Pay\Gateways\Alipay;
-use Yansongda\Pay\Gateways\Wechat;
-use Yansongda\Pay\Pay;
+use Pengxul\Pay\Contracts\GatewayApplicationInterface;
+use Pengxul\Pay\Exceptions\InvalidGatewayException;
+use Pengxul\Pay\Gateways\Alipay;
+use Pengxul\Pay\Gateways\Wechat;
+use Pengxul\Pay\Pay;
 
 class PayTest extends TestCase
 {
