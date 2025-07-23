@@ -35,7 +35,13 @@ class CreatePlugin extends GeneralPlugin
     protected function doSomething(Rocket $rocket): void
     {
         $params = $rocket->getParams();
-        $extra = $this->getWechatId($params, $rocket->getPayload());
+        $payload = $rocket->getPayload();
+        $config = get_wechat_config($params);
+        $extra = $this->getWechatId($params, $payload);
+
+        $payload['appid'] = $payload->get('appid', $config['appid'] ?? '');
+        $payload['notify_url'] = $payload->get('notify_url', $config['notify_url'] ?? '');
+
 
         if (!empty($params['transfer_detail_list'][0]['user_name'] ?? '')) {
             $params = $this->loadSerialNo($params);
@@ -50,7 +56,7 @@ class CreatePlugin extends GeneralPlugin
 
     protected function getUri(Rocket $rocket): string
     {
-        return 'v3/transfer/batches';
+        return 'v3/fund-app/mch-transfer/transfer-bills';
     }
 
     protected function getPartnerUri(Rocket $rocket): string
