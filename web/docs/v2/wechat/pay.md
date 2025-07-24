@@ -243,7 +243,7 @@ $result = $wechat->groupRedpack($order);
 
 **各支付方法返回值请参考顶部表格**
 
-返回只会返回两种类型 `Symfony\Component\HttpFoundation\Response` 或 `Yansongda\Supports\Collection`
+返回只会返回两种类型 `Symfony\Component\HttpFoundation\Response` 或 `Pengxul\Supports\Collection`
 
 * 返回 Response 类型时，可以通过 `return $response->send()` 直接进行返回（laravel 框架中使用请直接`return $response` ）
 * 返回 Collection 类型时，可以通过 `$collection->xxx` 得到服务器返回的数据。 

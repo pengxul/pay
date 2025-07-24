@@ -1,25 +1,25 @@
 <?php
 
-namespace Yansongda\Pay\Tests;
+namespace Pengxul\Pay\Tests;
 
 use DI\Container;
 use DI\ContainerBuilder;
 use GuzzleHttp\Client;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Contract\EventDispatcherInterface;
-use Yansongda\Pay\Contract\HttpClientInterface;
-use Yansongda\Pay\Contract\LoggerInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Provider\Alipay;
-use Yansongda\Pay\Tests\Stubs\FooServiceProviderStub;
-use Yansongda\Supports\Config;
-use Yansongda\Supports\Logger;
-use Yansongda\Supports\Pipeline;
+use Pengxul\Pay\Contract\ConfigInterface;
+use Pengxul\Pay\Contract\EventDispatcherInterface;
+use Pengxul\Pay\Contract\HttpClientInterface;
+use Pengxul\Pay\Contract\LoggerInterface;
+use Pengxul\Pay\Exception\ContainerException;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\ServiceNotFoundException;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Provider\Alipay;
+use Pengxul\Pay\Tests\Stubs\FooServiceProviderStub;
+use Pengxul\Supports\Config;
+use Pengxul\Supports\Logger;
+use Pengxul\Supports\Pipeline;
 
 class PayTest extends TestCase
 {

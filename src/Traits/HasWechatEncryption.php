@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Traits;
+namespace Pengxul\Pay\Traits;
 
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Exception\InvalidResponseException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
+use Pengxul\Pay\Exception\ContainerException;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidConfigException;
+use Pengxul\Pay\Exception\InvalidParamsException;
+use Pengxul\Pay\Exception\InvalidResponseException;
+use Pengxul\Pay\Exception\ServiceNotFoundException;
 
-use function Yansongda\Pay\get_wechat_config;
-use function Yansongda\Pay\reload_wechat_public_certs;
+use function Pengxul\Pay\get_wechat_config;
+use function Pengxul\Pay\reload_wechat_public_certs;
 
 trait HasWechatEncryption
 {

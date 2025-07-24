@@ -1,15 +1,15 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Papay;
+namespace Pengxul\Pay\Tests\Plugin\Wechat\Papay;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;
-use Yansongda\Pay\Packer\XmlPacker;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\Papay\ContractOrderPlugin;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Packer\XmlPacker;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Plugin\Wechat\Papay\ContractOrderPlugin;
+use Pengxul\Pay\Provider\Wechat;
+use Pengxul\Pay\Rocket;
+use Pengxul\Pay\Tests\TestCase;
 
 class ContractOrderPluginTest extends TestCase
 {

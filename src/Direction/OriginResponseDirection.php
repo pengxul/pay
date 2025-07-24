@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Direction;
+namespace Pengxul\Pay\Direction;
 
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Pay\Contract\DirectionInterface;
-use Yansongda\Pay\Contract\PackerInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidResponseException;
+use Pengxul\Pay\Contract\DirectionInterface;
+use Pengxul\Pay\Contract\PackerInterface;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidResponseException;
 
 class OriginResponseDirection implements DirectionInterface
 {

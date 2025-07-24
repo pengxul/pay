@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Shortcut;
+namespace Pengxul\Pay\Tests\Plugin\Wechat\Shortcut;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Wechat\Pay\Common\QueryRefundPlugin;
-use Yansongda\Pay\Plugin\Wechat\Pay\Common\QueryPlugin;
-use Yansongda\Pay\Plugin\Wechat\Shortcut\QueryShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidParamsException;
+use Pengxul\Pay\Plugin\Wechat\Pay\Common\QueryRefundPlugin;
+use Pengxul\Pay\Plugin\Wechat\Pay\Common\QueryPlugin;
+use Pengxul\Pay\Plugin\Wechat\Shortcut\QueryShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class QueryShortcutTest extends TestCase
 {
@@ -39,14 +39,14 @@ class QueryShortcutTest extends TestCase
     public function testCombine()
     {
         self::assertEquals([
-            \Yansongda\Pay\Plugin\Wechat\Pay\Combine\QueryPlugin::class,
+            \Pengxul\Pay\Plugin\Wechat\Pay\Combine\QueryPlugin::class,
         ], $this->plugin->getPlugins(['_action' => 'combine']));
     }
 
     public function testCombineParams()
     {
         self::assertEquals([
-            \Yansongda\Pay\Plugin\Wechat\Pay\Combine\QueryPlugin::class,
+            \Pengxul\Pay\Plugin\Wechat\Pay\Combine\QueryPlugin::class,
         ], $this->plugin->getPlugins(['combine_out_trade_no' => '123abc']));
     }
 

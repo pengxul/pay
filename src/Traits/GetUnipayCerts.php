@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Traits;
+namespace Pengxul\Pay\Traits;
 
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
+use Pengxul\Pay\Contract\ConfigInterface;
+use Pengxul\Pay\Exception\ContainerException;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidConfigException;
+use Pengxul\Pay\Exception\ServiceNotFoundException;
+use Pengxul\Pay\Pay;
 
 trait GetUnipayCerts
 {

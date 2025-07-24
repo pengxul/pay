@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Fund\Balance;
+namespace Pengxul\Pay\Plugin\Wechat\Fund\Balance;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Wechat\GeneralPlugin;
-use Yansongda\Pay\Rocket;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidParamsException;
+use Pengxul\Pay\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Pay\Rocket;
 
 class QueryDayEndPlugin extends GeneralPlugin
 {

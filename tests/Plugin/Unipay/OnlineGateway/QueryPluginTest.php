@@ -1,19 +1,19 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay\OnlineGateway;
+namespace Pengxul\Pay\Tests\Plugin\Unipay\OnlineGateway;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Unipay\OnlineGateway\QueryPlugin;
-use Yansongda\Pay\Provider\Unipay;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Plugin\Unipay\OnlineGateway\QueryPlugin;
+use Pengxul\Pay\Provider\Unipay;
+use Pengxul\Pay\Rocket;
+use Pengxul\Pay\Tests\TestCase;
 
 class QueryPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Unipay\OnlineGateway\QueryPlugin
+     * @var \Pengxul\Pay\Plugin\Unipay\OnlineGateway\QueryPlugin
      */
     protected $plugin;
 

@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat;
+namespace Pengxul\Pay\Plugin\Wechat;
 
 use Closure;
 use Psr\Http\Message\RequestInterface;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Logger;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Request;
-use Yansongda\Pay\Rocket;
+use Pengxul\Pay\Contract\PluginInterface;
+use Pengxul\Pay\Exception\ContainerException;
+use Pengxul\Pay\Exception\ServiceNotFoundException;
+use Pengxul\Pay\Logger;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Request;
+use Pengxul\Pay\Rocket;
 
-use function Yansongda\Pay\get_wechat_base_uri;
-use function Yansongda\Pay\get_wechat_config;
+use function Pengxul\Pay\get_wechat_base_uri;
+use function Pengxul\Pay\get_wechat_config;
 
 abstract class GeneralPlugin implements PluginInterface
 {

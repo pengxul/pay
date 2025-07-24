@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay\Shortcut;
+namespace Pengxul\Pay\Plugin\Alipay\Shortcut;
 
-use Yansongda\Pay\Contract\ShortcutInterface;
-use Yansongda\Pay\Plugin\Alipay\HtmlResponsePlugin;
-use Yansongda\Pay\Plugin\Alipay\Trade\WapPayPlugin;
+use Pengxul\Pay\Contract\ShortcutInterface;
+use Pengxul\Pay\Plugin\Alipay\HtmlResponsePlugin;
+use Pengxul\Pay\Plugin\Alipay\Trade\WapPayPlugin;
 
 class WapShortcut implements ShortcutInterface
 {

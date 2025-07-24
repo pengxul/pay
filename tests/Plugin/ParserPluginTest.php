@@ -1,16 +1,16 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin;
+namespace Pengxul\Pay\Tests\Plugin;
 
-use Yansongda\Pay\Contract\DirectionInterface;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Direction\NoHttpRequestDirection;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\ParserPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\Stubs\FooPackerStub;
-use Yansongda\Pay\Tests\Stubs\FooParserStub;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Contract\DirectionInterface;
+use Pengxul\Pay\Exception\InvalidConfigException;
+use Pengxul\Pay\Direction\NoHttpRequestDirection;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Plugin\ParserPlugin;
+use Pengxul\Pay\Rocket;
+use Pengxul\Pay\Tests\Stubs\FooPackerStub;
+use Pengxul\Pay\Tests\Stubs\FooParserStub;
+use Pengxul\Pay\Tests\TestCase;
 
 class ParserPluginTest extends TestCase
 {

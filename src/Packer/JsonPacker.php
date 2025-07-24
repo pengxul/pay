@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Packer;
+namespace Pengxul\Pay\Packer;
 
-use Yansongda\Pay\Contract\PackerInterface;
+use Pengxul\Pay\Contract\PackerInterface;
 
 class JsonPacker implements PackerInterface
 {

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Pay\Common;
+namespace Pengxul\Pay\Plugin\Wechat\Pay\Common;
 
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Plugin\Wechat\GeneralPlugin;
-use Yansongda\Pay\Rocket;
+use Pengxul\Pay\Exception\ContainerException;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidParamsException;
+use Pengxul\Pay\Exception\ServiceNotFoundException;
+use Pengxul\Pay\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Pay\Rocket;
 
-use function Yansongda\Pay\get_wechat_config;
+use function Pengxul\Pay\get_wechat_config;
 
 class QueryPlugin extends GeneralPlugin
 {

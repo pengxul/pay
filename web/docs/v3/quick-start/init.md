@@ -185,20 +185,20 @@ $result = Pay::alipay()->find($order);
 
 Pay 中内置了非常简单的获取微信平台公钥证书的方式，只需三两行代码即可搞定微信平台证书，再也不用下载着下载那，搞的一头雾水了！
 
-如果您感兴趣，您可以参考 `\Yansongda\Pay\get_wechat_public_certs` 方法了解详细细节。
+如果您感兴趣，您可以参考 `\Pengxul\Pay\get_wechat_public_certs` 方法了解详细细节。
 
 #### 直接将获取到的证书保存为文件
 
 ```php
 <?php
 
-\Yansongda\Pay\Pay::config($config);
+\Pengxul\Pay\Pay::config($config);
 
 $params = [
     '_config' => 'default' // 多租户配置时使用
 ];
 
-\Yansongda\Pay\get_wechat_public_certs($params, storage_path('pay/wechat_default'));
+\Pengxul\Pay\get_wechat_public_certs($params, storage_path('pay/wechat_default'));
 ```
 
 通过简单的代码，即可将证书保存至指定目录，这样，我们就可以在配置文件中直接使用了。
@@ -208,11 +208,11 @@ $params = [
 以下代码运行后，将会直接将证书内容 `var_dump` 出来，方便您自由使用。
 
 ```php
-\Yansongda\Pay\Pay::config($config);
+\Pengxul\Pay\Pay::config($config);
 
 $params = [
     '_config' => 'default' // 多租户配置时使用
 ];
 
-\Yansongda\Pay\get_wechat_public_certs($params);
+\Pengxul\Pay\get_wechat_public_certs($params);
 ```

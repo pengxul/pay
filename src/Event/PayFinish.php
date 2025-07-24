@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Event;
+namespace Pengxul\Pay\Event;
 
 class PayFinish extends Event
 {

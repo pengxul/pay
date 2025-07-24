@@ -1,14 +1,14 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat;
+namespace Pengxul\Pay\Tests\Plugin\Wechat;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\Stubs\Plugin\WechatGeneralPluginStub;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Provider\Wechat;
+use Pengxul\Pay\Rocket;
+use Pengxul\Pay\Tests\Stubs\Plugin\WechatGeneralPluginStub;
+use Pengxul\Pay\Tests\TestCase;
 
 class GeneralPluginTest extends TestCase
 {

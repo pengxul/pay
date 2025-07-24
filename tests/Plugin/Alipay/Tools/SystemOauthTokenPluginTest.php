@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\Tools;
+namespace Pengxul\Pay\Tests\Plugin\Alipay\Tools;
 
-use Yansongda\Pay\Direction\ResponseDirection;
-use Yansongda\Pay\Plugin\Alipay\Tools\SystemOauthTokenPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Direction\ResponseDirection;
+use Pengxul\Pay\Plugin\Alipay\Tools\SystemOauthTokenPlugin;
+use Pengxul\Pay\Rocket;
+use Pengxul\Pay\Tests\TestCase;
 
 class SystemOauthTokenPluginTest extends TestCase
 {

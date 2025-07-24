@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Shortcut;
+namespace Pengxul\Pay\Plugin\Wechat\Shortcut;
 
-use Yansongda\Pay\Contract\ShortcutInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Wechat\Pay\Common\ClosePlugin;
-use Yansongda\Supports\Str;
+use Pengxul\Pay\Contract\ShortcutInterface;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidParamsException;
+use Pengxul\Pay\Plugin\Wechat\Pay\Common\ClosePlugin;
+use Pengxul\Supports\Str;
 
 class CloseShortcut implements ShortcutInterface
 {
@@ -40,7 +40,7 @@ class CloseShortcut implements ShortcutInterface
     protected function combinePlugins(): array
     {
         return [
-            \Yansongda\Pay\Plugin\Wechat\Pay\Combine\ClosePlugin::class,
+            \Pengxul\Pay\Plugin\Wechat\Pay\Combine\ClosePlugin::class,
         ];
     }
 }

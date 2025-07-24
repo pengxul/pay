@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay;
+namespace Pengxul\Pay\Plugin\Alipay;
 
 use Closure;
 use GuzzleHttp\Psr7\Response;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Logger;
-use Yansongda\Pay\Rocket;
-use Yansongda\Supports\Collection;
+use Pengxul\Pay\Contract\PluginInterface;
+use Pengxul\Pay\Logger;
+use Pengxul\Pay\Rocket;
+use Pengxul\Supports\Collection;
 
 class HtmlResponsePlugin implements PluginInterface
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Traits;
+namespace Pengxul\Pay\Tests\Traits;
 
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Tests\Stubs\Traits\GetUnipayCertsStub;
-use Yansongda\Pay\Tests\TestCase;
-use function Yansongda\Pay\get_unipay_config;
+use Pengxul\Pay\Contract\ConfigInterface;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidConfigException;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Tests\Stubs\Traits\GetUnipayCertsStub;
+use Pengxul\Pay\Tests\TestCase;
+use function Pengxul\Pay\get_unipay_config;
 
 class GetUnipayCertsTest extends TestCase
 {

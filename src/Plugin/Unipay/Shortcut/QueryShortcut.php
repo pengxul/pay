@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Unipay\Shortcut;
+namespace Pengxul\Pay\Plugin\Unipay\Shortcut;
 
-use Yansongda\Pay\Contract\ShortcutInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Unipay\OnlineGateway\QueryPlugin;
-use Yansongda\Supports\Str;
+use Pengxul\Pay\Contract\ShortcutInterface;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidParamsException;
+use Pengxul\Pay\Plugin\Unipay\OnlineGateway\QueryPlugin;
+use Pengxul\Supports\Str;
 
 class QueryShortcut implements ShortcutInterface
 {
@@ -36,7 +36,7 @@ class QueryShortcut implements ShortcutInterface
     protected function qrCodePlugins(): array
     {
         return [
-            \Yansongda\Pay\Plugin\Unipay\QrCode\QueryPlugin::class,
+            \Pengxul\Pay\Plugin\Unipay\QrCode\QueryPlugin::class,
         ];
     }
 }

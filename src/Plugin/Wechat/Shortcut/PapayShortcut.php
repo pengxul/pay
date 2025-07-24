@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\Shortcut;
+namespace Pengxul\Pay\Plugin\Wechat\Shortcut;
 
-use Yansongda\Pay\Contract\ShortcutInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\ParserPlugin;
-use Yansongda\Pay\Plugin\Wechat\Papay\ApplyPlugin;
-use Yansongda\Pay\Plugin\Wechat\Papay\ContractOrderPlugin;
-use Yansongda\Pay\Plugin\Wechat\Papay\OnlyContractPlugin;
-use Yansongda\Pay\Plugin\Wechat\Pay\Common\InvokePrepayV2Plugin;
-use Yansongda\Pay\Plugin\Wechat\PreparePlugin;
-use Yansongda\Pay\Plugin\Wechat\RadarSignPlugin;
-use Yansongda\Supports\Str;
+use Pengxul\Pay\Contract\ShortcutInterface;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Exception\InvalidParamsException;
+use Pengxul\Pay\Plugin\ParserPlugin;
+use Pengxul\Pay\Plugin\Wechat\Papay\ApplyPlugin;
+use Pengxul\Pay\Plugin\Wechat\Papay\ContractOrderPlugin;
+use Pengxul\Pay\Plugin\Wechat\Papay\OnlyContractPlugin;
+use Pengxul\Pay\Plugin\Wechat\Pay\Common\InvokePrepayV2Plugin;
+use Pengxul\Pay\Plugin\Wechat\PreparePlugin;
+use Pengxul\Pay\Plugin\Wechat\RadarSignPlugin;
+use Pengxul\Supports\Str;
 
 class PapayShortcut implements ShortcutInterface
 {
@@ -80,10 +80,10 @@ class PapayShortcut implements ShortcutInterface
     {
         switch ($params['_type'] ?? 'default') {
             case 'app':
-                return \Yansongda\Pay\Plugin\Wechat\Pay\App\InvokePrepayV2Plugin::class;
+                return \Pengxul\Pay\Plugin\Wechat\Pay\App\InvokePrepayV2Plugin::class;
 
             case 'mini':
-                return \Yansongda\Pay\Plugin\Wechat\Pay\Mini\InvokePrepayV2Plugin::class;
+                return \Pengxul\Pay\Plugin\Wechat\Pay\Mini\InvokePrepayV2Plugin::class;
 
             default:
                 return InvokePrepayV2Plugin::class;

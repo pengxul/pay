@@ -1,8 +1,8 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Stubs\Traits;
+namespace Pengxul\Pay\Tests\Stubs\Traits;
 
-use Yansongda\Pay\Traits\HasWechatEncryption;
+use Pengxul\Pay\Traits\HasWechatEncryption;
 
 class HasWechatEncryptionStub
 {

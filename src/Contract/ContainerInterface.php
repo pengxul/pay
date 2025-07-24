@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Contract;
+namespace Pengxul\Pay\Contract;
 
 interface ContainerInterface extends \Psr\Container\ContainerInterface
 {

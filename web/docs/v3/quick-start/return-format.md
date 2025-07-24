@@ -3,7 +3,7 @@
 通过 `yansongda/pay` 调用任何方法最终只可能返回三种格式
 
 - `\Psr\Http\Message\MessageInterface`
-- `\Yansongda\Supports\Collection`
+- `\Pengxul\Supports\Collection`
 - `array`
 
 其中 `\Psr\Http\Message\MessageInterface` 最终 实例/接口 为
@@ -53,8 +53,8 @@ API 调用场景下的返回类型，`array` 和 `Collection` 是可以自定义
 如果想返回 array 类型的数据，只需要
 
 ```php
-use Yansongda\Pay\Contract\DirectionInterface;
-use Yansongda\Pay\Direction\ArrayDirection;
+use Pengxul\Pay\Contract\DirectionInterface;
+use Pengxul\Pay\Direction\ArrayDirection;
 
 Pay::set(DirectionInterface::class, ArrayDirection::class);
 ```

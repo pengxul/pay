@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Contract;
+namespace Pengxul\Pay\Contract;
 
 use Closure;
-use Yansongda\Pay\Rocket;
+use Pengxul\Pay\Rocket;
 
 interface PluginInterface
 {

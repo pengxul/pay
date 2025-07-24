@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay\Shortcut;
+namespace Pengxul\Pay\Plugin\Alipay\Shortcut;
 
 use Closure;
 use GuzzleHttp\Psr7\Response;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Contract\ShortcutInterface;
-use Yansongda\Pay\Plugin\Alipay\Trade\AppPayPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Supports\Arr;
-use Yansongda\Supports\Collection;
+use Pengxul\Pay\Contract\PluginInterface;
+use Pengxul\Pay\Contract\ShortcutInterface;
+use Pengxul\Pay\Plugin\Alipay\Trade\AppPayPlugin;
+use Pengxul\Pay\Rocket;
+use Pengxul\Supports\Arr;
+use Pengxul\Supports\Collection;
 
 class AppShortcut implements ShortcutInterface
 {

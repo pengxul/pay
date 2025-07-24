@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\User;
+namespace Pengxul\Pay\Tests\Plugin\Alipay\User;
 
-use Yansongda\Pay\Direction\ResponseDirection;
-use Yansongda\Pay\Plugin\Alipay\User\AgreementPageSignPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Direction\ResponseDirection;
+use Pengxul\Pay\Plugin\Alipay\User\AgreementPageSignPlugin;
+use Pengxul\Pay\Rocket;
+use Pengxul\Pay\Tests\TestCase;
 
 class AgreementPageSignPluginTest extends TestCase
 {

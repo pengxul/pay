@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Service;
+namespace Pengxul\Pay\Service;
 
-use Yansongda\Pay\Contract\ServiceProviderInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Provider\Alipay;
+use Pengxul\Pay\Contract\ServiceProviderInterface;
+use Pengxul\Pay\Exception\ContainerException;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Provider\Alipay;
 
 class AlipayServiceProvider implements ServiceProviderInterface
 {

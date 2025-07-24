@@ -1,23 +1,23 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Provider;
+namespace Pengxul\Pay\Tests\Provider;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\ServerRequest;
 use Mockery;
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Pay\Contract\HttpClientInterface;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Alipay\LaunchPlugin;
-use Yansongda\Pay\Plugin\Alipay\PreparePlugin;
-use Yansongda\Pay\Plugin\Alipay\RadarPlugin;
-use Yansongda\Pay\Plugin\Alipay\RadarSignPlugin;
-use Yansongda\Pay\Plugin\Alipay\SignPlugin;
-use Yansongda\Pay\Plugin\ParserPlugin;
-use Yansongda\Pay\Tests\Stubs\Plugin\FooPluginStub;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Contract\HttpClientInterface;
+use Pengxul\Pay\Exception\InvalidParamsException;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Plugin\Alipay\LaunchPlugin;
+use Pengxul\Pay\Plugin\Alipay\PreparePlugin;
+use Pengxul\Pay\Plugin\Alipay\RadarPlugin;
+use Pengxul\Pay\Plugin\Alipay\RadarSignPlugin;
+use Pengxul\Pay\Plugin\Alipay\SignPlugin;
+use Pengxul\Pay\Plugin\ParserPlugin;
+use Pengxul\Pay\Tests\Stubs\Plugin\FooPluginStub;
+use Pengxul\Pay\Tests\TestCase;
 
 class AlipayTest extends TestCase
 {
