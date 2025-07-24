@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\V2\Pay\Authorization\Bill;
+namespace Pengxul\Pay\Tests\Plugin\Alipay\V2\Pay\Authorization\Bill;
 
-use Yansongda\Artful\Direction\ResponseDirection;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Authorization\Bill\QueryUrlPlugin;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Direction\ResponseDirection;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Authorization\Bill\QueryUrlPlugin;
+use Pengxul\Pay\Tests\TestCase;
 
 class QueryUrlPluginTest extends TestCase
 {

@@ -2,20 +2,20 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Shortcut\Douyin;
+namespace Pengxul\Pay\Tests\Shortcut\Douyin;
 
-use Yansongda\Artful\Exception\InvalidParamsException;
-use Yansongda\Artful\Plugin\AddPayloadBodyPlugin;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Artful\Plugin\StartPlugin;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Plugin\Douyin\V1\Pay\AddPayloadSignaturePlugin;
-use Yansongda\Pay\Plugin\Douyin\V1\Pay\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Douyin\V1\Pay\Mini\QueryPlugin as MiniQueryPlugin;
-use Yansongda\Pay\Plugin\Douyin\V1\Pay\Mini\QueryRefundPlugin as MiniQueryRefundPlugin;
-use Yansongda\Pay\Plugin\Douyin\V1\Pay\ResponsePlugin;
-use Yansongda\Pay\Shortcut\Douyin\QueryShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Exception\InvalidParamsException;
+use Pengxul\Artful\Plugin\AddPayloadBodyPlugin;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Artful\Plugin\StartPlugin;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Plugin\Douyin\V1\Pay\AddPayloadSignaturePlugin;
+use Pengxul\Pay\Plugin\Douyin\V1\Pay\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Douyin\V1\Pay\Mini\QueryPlugin as MiniQueryPlugin;
+use Pengxul\Pay\Plugin\Douyin\V1\Pay\Mini\QueryRefundPlugin as MiniQueryRefundPlugin;
+use Pengxul\Pay\Plugin\Douyin\V1\Pay\ResponsePlugin;
+use Pengxul\Pay\Shortcut\Douyin\QueryShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class QueryShortcutTest extends TestCase
 {

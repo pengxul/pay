@@ -1,13 +1,13 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\V3\Pay\Combine;
+namespace Pengxul\Pay\Tests\Plugin\Wechat\V3\Pay\Combine;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Artful\Exception\InvalidResponseException;
-use Yansongda\Pay\Plugin\Wechat\V3\Pay\Combine\AppInvokePlugin;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Tests\TestCase;
-use Yansongda\Supports\Collection;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Artful\Exception\InvalidResponseException;
+use Pengxul\Pay\Plugin\Wechat\V3\Pay\Combine\AppInvokePlugin;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Tests\TestCase;
+use Pengxul\Supports\Collection;
 
 class AppInvokePluginTest extends TestCase
 {

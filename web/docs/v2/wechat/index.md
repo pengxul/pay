@@ -5,7 +5,7 @@
 ## 快速上手
 
 ```php
-use Yansongda\Pay\Pay;
+use Pengxul\Pay\Pay;
 
 $config = [
     'appid' => 'wxb3fxxxxxxxxxxx', // APP APPID
@@ -49,22 +49,22 @@ $order = [
     'refund_desc' => '测试退款haha',
 ];
 
-$result = Pay::wechat($config)->refund($order); // 返回 `Yansongda\Supports\Collection` 实例，可以通过 `$result->xxx` 访问服务器返回的数据。
+$result = Pay::wechat($config)->refund($order); // 返回 `Pengxul\Supports\Collection` 实例，可以通过 `$result->xxx` 访问服务器返回的数据。
 
 // 查询
-$result = Pay::wechat($config)->find('out_trade_no_123456'); // 返回 `Yansongda\Supports\Collection` 实例，可以通过 `$result->xxx` 访问服务器返回的数据。
+$result = Pay::wechat($config)->find('out_trade_no_123456'); // 返回 `Pengxul\Supports\Collection` 实例，可以通过 `$result->xxx` 访问服务器返回的数据。
 
 // 取消
 微信未提供取消订单接口，访问此接口将抛出 `GatewayException` 异常。
 
 // 关闭
-$result = Pay::wechat($config)->close('out_trade_no_123456'); // 返回 `Yansongda\Supports\Collection` 实例，可以通过 `$result->xxx` 访问服务器返回的数据。
+$result = Pay::wechat($config)->close('out_trade_no_123456'); // 返回 `Pengxul\Supports\Collection` 实例，可以通过 `$result->xxx` 访问服务器返回的数据。
 
 // 验证服务器数据
 $wechat = Pay::wechat($config)
 
 // 是的，验签就这么简单！
-$data = $wechat->verify(); // 返回 `Yansongda\Supports\Collection` 实例，可以通过 `$data->xxx` 访问服务器返回的数据。
+$data = $wechat->verify(); // 返回 `Pengxul\Supports\Collection` 实例，可以通过 `$data->xxx` 访问服务器返回的数据。
 
 $wechat->success()->send(); // 向微信服务器确认接收到的数据。laravel 框架中请直接 `return $wechat->success()`
 ```

@@ -1,13 +1,13 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\V2;
+namespace Pengxul\Pay\Tests\Plugin\Alipay\V2;
 
-use Yansongda\Artful\Exception\InvalidResponseException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Plugin\Alipay\V2\ResponsePlugin;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Tests\TestCase;
-use Yansongda\Supports\Collection;
+use Pengxul\Artful\Exception\InvalidResponseException;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Plugin\Alipay\V2\ResponsePlugin;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Tests\TestCase;
+use Pengxul\Supports\Collection;
 
 class ResponsePluginTest extends TestCase
 {

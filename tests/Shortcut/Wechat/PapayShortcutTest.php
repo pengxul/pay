@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Shortcut\Wechat;
+namespace Pengxul\Pay\Tests\Shortcut\Wechat;
 
-use Yansongda\Artful\Exception\InvalidParamsException;
-use Yansongda\Artful\Plugin\AddPayloadBodyPlugin;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Artful\Plugin\StartPlugin;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Plugin\Wechat\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Wechat\ResponsePlugin;
-use Yansongda\Pay\Plugin\Wechat\V2\AddPayloadSignaturePlugin;
-use Yansongda\Pay\Plugin\Wechat\V2\Papay\Direct\ApplyPlugin;
-use Yansongda\Pay\Plugin\Wechat\V2\Papay\Direct\ContractOrderPlugin;
-use Yansongda\Pay\Plugin\Wechat\V2\Papay\Direct\MiniOnlyContractPlugin;
-use Yansongda\Pay\Plugin\Wechat\V2\Pay\App\InvokePlugin as AppInvokePlugin;
-use Yansongda\Pay\Plugin\Wechat\V2\Pay\Mini\InvokePlugin as MiniInvokePlugin;
-use Yansongda\Pay\Plugin\Wechat\V2\VerifySignaturePlugin;
-use Yansongda\Pay\Shortcut\Wechat\PapayShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Exception\InvalidParamsException;
+use Pengxul\Artful\Plugin\AddPayloadBodyPlugin;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Artful\Plugin\StartPlugin;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Plugin\Wechat\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Wechat\ResponsePlugin;
+use Pengxul\Pay\Plugin\Wechat\V2\AddPayloadSignaturePlugin;
+use Pengxul\Pay\Plugin\Wechat\V2\Papay\Direct\ApplyPlugin;
+use Pengxul\Pay\Plugin\Wechat\V2\Papay\Direct\ContractOrderPlugin;
+use Pengxul\Pay\Plugin\Wechat\V2\Papay\Direct\MiniOnlyContractPlugin;
+use Pengxul\Pay\Plugin\Wechat\V2\Pay\App\InvokePlugin as AppInvokePlugin;
+use Pengxul\Pay\Plugin\Wechat\V2\Pay\Mini\InvokePlugin as MiniInvokePlugin;
+use Pengxul\Pay\Plugin\Wechat\V2\VerifySignaturePlugin;
+use Pengxul\Pay\Shortcut\Wechat\PapayShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class PapayShortcutTest extends TestCase
 {

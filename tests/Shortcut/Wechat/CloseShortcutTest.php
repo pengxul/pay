@@ -2,21 +2,21 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Shortcut\Wechat;
+namespace Pengxul\Pay\Tests\Shortcut\Wechat;
 
-use Yansongda\Artful\Plugin\AddPayloadBodyPlugin;
-use Yansongda\Artful\Plugin\StartPlugin;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Artful\Exception\InvalidParamsException;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Pay\Plugin\Wechat\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Wechat\ResponsePlugin;
-use Yansongda\Pay\Plugin\Wechat\V3\AddPayloadSignaturePlugin;
-use Yansongda\Pay\Plugin\Wechat\V3\Pay\Combine\ClosePlugin as CombineClosePlugin;
-use Yansongda\Pay\Plugin\Wechat\V3\Pay\Jsapi\ClosePlugin as JsapiClosePlugin;
-use Yansongda\Pay\Plugin\Wechat\V3\VerifySignaturePlugin;
-use Yansongda\Pay\Shortcut\Wechat\CloseShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Plugin\AddPayloadBodyPlugin;
+use Pengxul\Artful\Plugin\StartPlugin;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Artful\Exception\InvalidParamsException;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Pay\Plugin\Wechat\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Wechat\ResponsePlugin;
+use Pengxul\Pay\Plugin\Wechat\V3\AddPayloadSignaturePlugin;
+use Pengxul\Pay\Plugin\Wechat\V3\Pay\Combine\ClosePlugin as CombineClosePlugin;
+use Pengxul\Pay\Plugin\Wechat\V3\Pay\Jsapi\ClosePlugin as JsapiClosePlugin;
+use Pengxul\Pay\Plugin\Wechat\V3\VerifySignaturePlugin;
+use Pengxul\Pay\Shortcut\Wechat\CloseShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class CloseShortcutTest extends TestCase
 {

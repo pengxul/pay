@@ -1,7 +1,11 @@
 {
-    "name": "yansongda/pay",
+    "name": "pengxul/pay",
     "description": "可能是我用过的最优雅的 Alipay 和 WeChat 的支付 SDK 扩展包了",
-    "keywords": ["alipay", "wechat", "pay"],
+    "keywords": [
+        "alipay",
+        "wechat",
+        "pay"
+    ],
     "type": "library",
     "license": "MIT",
     "support": {
@@ -15,10 +19,11 @@
             "email": "me@yansongda.cn"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=8.0",
         "ext-openssl": "*",
-        "ext-simplexml":"*",
+        "ext-simplexml": "*",
         "ext-libxml": "*",
         "ext-json": "*",
         "ext-bcmath": "*",
@@ -44,7 +49,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yansongda\\Pay\\": "src"
+            "Pengxul\\Pay\\": "src"
         },
         "files": [
             "src/Functions.php"
@@ -52,7 +57,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Yansongda\\Pay\\Tests\\": "tests"
+            "Pengxul\\Pay\\Tests\\": "tests"
         }
     },
     "scripts": {

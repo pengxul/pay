@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\V2\Member\Certification;
+namespace Pengxul\Pay\Tests\Plugin\Alipay\V2\Member\Certification;
 
-use Yansongda\Artful\Direction\ResponseDirection;
-use Yansongda\Pay\Plugin\Alipay\V2\Member\Certification\InitPlugin;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Direction\ResponseDirection;
+use Pengxul\Pay\Plugin\Alipay\V2\Member\Certification\InitPlugin;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Tests\TestCase;
 
 class InitPluginTest extends TestCase
 {

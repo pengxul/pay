@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Shortcut\Jsb;
+namespace Pengxul\Pay\Shortcut\Jsb;
 
-use Yansongda\Artful\Contract\ShortcutInterface;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Pay\Plugin\Jsb\AddPayloadSignPlugin;
-use Yansongda\Pay\Plugin\Jsb\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Jsb\Pay\Scan\PayPlugin;
-use Yansongda\Pay\Plugin\Jsb\ResponsePlugin;
-use Yansongda\Pay\Plugin\Jsb\StartPlugin;
-use Yansongda\Pay\Plugin\Jsb\VerifySignaturePlugin;
+use Pengxul\Artful\Contract\ShortcutInterface;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Pay\Plugin\Jsb\AddPayloadSignPlugin;
+use Pengxul\Pay\Plugin\Jsb\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Jsb\Pay\Scan\PayPlugin;
+use Pengxul\Pay\Plugin\Jsb\ResponsePlugin;
+use Pengxul\Pay\Plugin\Jsb\StartPlugin;
+use Pengxul\Pay\Plugin\Jsb\VerifySignaturePlugin;
 
 class ScanShortcut implements ShortcutInterface
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Jsb;
+namespace Pengxul\Pay\Tests\Plugin\Jsb;
 
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Plugin\Jsb\AddRadarPlugin;
-use Yansongda\Pay\Tests\TestCase;
-use Yansongda\Supports\Collection;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Plugin\Jsb\AddRadarPlugin;
+use Pengxul\Pay\Tests\TestCase;
+use Pengxul\Supports\Collection;
 
 class AddRadarPluginTest extends TestCase
 {

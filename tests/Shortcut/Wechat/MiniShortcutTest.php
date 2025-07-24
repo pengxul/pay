@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Shortcut\Wechat;
+namespace Pengxul\Pay\Tests\Shortcut\Wechat;
 
-use Yansongda\Artful\Plugin\AddPayloadBodyPlugin;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Artful\Plugin\StartPlugin;
-use Yansongda\Pay\Plugin\Wechat\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Wechat\ResponsePlugin;
-use Yansongda\Pay\Plugin\Wechat\V3\AddPayloadSignaturePlugin;
-use Yansongda\Pay\Plugin\Wechat\V3\Pay\Mini\InvokePlugin;
-use Yansongda\Pay\Plugin\Wechat\V3\Pay\Mini\PayPlugin;
-use Yansongda\Pay\Plugin\Wechat\V3\VerifySignaturePlugin;
-use Yansongda\Pay\Shortcut\Wechat\MiniShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Plugin\AddPayloadBodyPlugin;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Artful\Plugin\StartPlugin;
+use Pengxul\Pay\Plugin\Wechat\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Wechat\ResponsePlugin;
+use Pengxul\Pay\Plugin\Wechat\V3\AddPayloadSignaturePlugin;
+use Pengxul\Pay\Plugin\Wechat\V3\Pay\Mini\InvokePlugin;
+use Pengxul\Pay\Plugin\Wechat\V3\Pay\Mini\PayPlugin;
+use Pengxul\Pay\Plugin\Wechat\V3\VerifySignaturePlugin;
+use Pengxul\Pay\Shortcut\Wechat\MiniShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class MiniShortcutTest extends TestCase
 {

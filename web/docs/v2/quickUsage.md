@@ -6,8 +6,8 @@
 
 namespace App\Http\Controllers;
 
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Log;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Log;
 
 class PayController
 {
@@ -85,8 +85,8 @@ class PayController
 
 namespace App\Http\Controllers;
 
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Log;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Log;
 
 class PayController
 {

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Jsb;
+namespace Pengxul\Pay\Plugin\Jsb;
 
 use Closure;
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Artful\Contract\PluginInterface;
-use Yansongda\Artful\Exception\InvalidResponseException;
-use Yansongda\Artful\Logger;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Supports\Collection;
+use Pengxul\Artful\Contract\PluginInterface;
+use Pengxul\Artful\Exception\InvalidResponseException;
+use Pengxul\Artful\Logger;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Supports\Collection;
 
 class ResponsePlugin implements PluginInterface
 {

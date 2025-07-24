@@ -4,8 +4,8 @@
 （因为 Pay 是基于 `yansongda/artful` 的），具体来说就是以下三种：
 
 - `\Psr\Http\Message\MessageInterface`
-- `\Yansongda\Supports\Collection`
-- `\Yansongda\Artful\Rocket`
+- `\Pengxul\Supports\Collection`
+- `\Pengxul\Artful\Rocket`
 
 其中 `\Psr\Http\Message\MessageInterface` 最终 实例/接口 为
 

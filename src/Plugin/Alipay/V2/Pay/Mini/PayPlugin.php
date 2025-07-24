@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay\V2\Pay\Mini;
+namespace Pengxul\Pay\Plugin\Alipay\V2\Pay\Mini;
 
 use Closure;
-use Yansongda\Artful\Contract\PluginInterface;
-use Yansongda\Artful\Exception\ContainerException;
-use Yansongda\Artful\Exception\ServiceNotFoundException;
-use Yansongda\Artful\Logger;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Traits\SupportServiceProviderTrait;
+use Pengxul\Artful\Contract\PluginInterface;
+use Pengxul\Artful\Exception\ContainerException;
+use Pengxul\Artful\Exception\ServiceNotFoundException;
+use Pengxul\Artful\Logger;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Traits\SupportServiceProviderTrait;
 
 /**
  * @see https://opendocs.alipay.com/mini/05x9kv?pathHash=779dc517&ref=api&scene=de4d6a1e0c6e423b9eefa7c3a6dcb7a5

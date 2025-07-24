@@ -28,16 +28,16 @@ $result = Pay::douyin()->pay($allPlugins, $params);
 
 - 小程序下单
 
-  `\Yansongda\Pay\Plugin\Douyin\V1\Pay\Mini\PayPlugin`
+  `\Pengxul\Pay\Plugin\Douyin\V1\Pay\Mini\PayPlugin`
 
 - 商户订单号查询订单
 
-  `\Yansongda\Pay\Plugin\Douyin\V1\Pay\Mini\QueryPlugin`
+  `\Pengxul\Pay\Plugin\Douyin\V1\Pay\Mini\QueryPlugin`
 
 - 退款申请
 
-  `\Yansongda\Pay\Plugin\Douyin\V1\Pay\Mini\RefundPlugin`
+  `\Pengxul\Pay\Plugin\Douyin\V1\Pay\Mini\RefundPlugin`
 
 - 查询单笔退款（通过商户退款单号）
 
-  `\Yansongda\Pay\Plugin\Douyin\V1\Pay\Mini\QueryRefundPlugin`
+  `\Pengxul\Pay\Plugin\Douyin\V1\Pay\Mini\QueryRefundPlugin`

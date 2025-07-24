@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay\Open\Pay\QrCode;
+namespace Pengxul\Pay\Tests\Plugin\Unipay\Open\Pay\QrCode;
 
-use Yansongda\Artful\Packer\QueryPacker;
-use Yansongda\Pay\Plugin\Unipay\Open\Pay\QrCode\ScanPreAuthPlugin;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Packer\QueryPacker;
+use Pengxul\Pay\Plugin\Unipay\Open\Pay\QrCode\ScanPreAuthPlugin;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Tests\TestCase;
 
 class ScanPreAuthPluginTest extends TestCase
 {

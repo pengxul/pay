@@ -1,35 +1,35 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Shortcut\Alipay;
+namespace Pengxul\Pay\Tests\Shortcut\Alipay;
 
-use Yansongda\Artful\Exception\InvalidParamsException;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Plugin\Alipay\V2\AddPayloadSignaturePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\FormatPayloadBizContentPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Fund\Transfer\Fund\QueryPlugin as TransferQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Agreement\Pay\QueryPlugin as AgreementQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\App\QueryPlugin as AppQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\App\QueryRefundPlugin as AppQueryRefundPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Authorization\Pay\QueryPlugin as AuthorizationQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Authorization\Pay\QueryRefundPlugin as AuthorizationQueryRefundPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Face\QueryPlugin as FaceQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\H5\QueryPlugin as WapQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\H5\QueryRefundPlugin as WapQueryRefundPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Mini\QueryPlugin as MiniQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Mini\QueryRefundPlugin as MiniQueryRefundPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Pos\QueryPlugin as PosQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Pos\QueryRefundPlugin as PosQueryRefundPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Scan\QueryPlugin as ScanQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Scan\QueryRefundPlugin as ScanQueryRefundPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Web\QueryPlugin as WebQueryPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Web\QueryRefundPlugin as WebQueryRefundPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\ResponsePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\StartPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\VerifySignaturePlugin;
-use Yansongda\Pay\Shortcut\Alipay\QueryShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Exception\InvalidParamsException;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Plugin\Alipay\V2\AddPayloadSignaturePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\FormatPayloadBizContentPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Fund\Transfer\Fund\QueryPlugin as TransferQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Agreement\Pay\QueryPlugin as AgreementQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\App\QueryPlugin as AppQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\App\QueryRefundPlugin as AppQueryRefundPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Authorization\Pay\QueryPlugin as AuthorizationQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Authorization\Pay\QueryRefundPlugin as AuthorizationQueryRefundPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Face\QueryPlugin as FaceQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\H5\QueryPlugin as WapQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\H5\QueryRefundPlugin as WapQueryRefundPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Mini\QueryPlugin as MiniQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Mini\QueryRefundPlugin as MiniQueryRefundPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Pos\QueryPlugin as PosQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Pos\QueryRefundPlugin as PosQueryRefundPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Scan\QueryPlugin as ScanQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Scan\QueryRefundPlugin as ScanQueryRefundPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Web\QueryPlugin as WebQueryPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Web\QueryRefundPlugin as WebQueryRefundPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\ResponsePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\StartPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\VerifySignaturePlugin;
+use Pengxul\Pay\Shortcut\Alipay\QueryShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class QueryShortcutTest extends TestCase
 {

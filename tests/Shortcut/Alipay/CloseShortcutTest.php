@@ -1,26 +1,26 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Shortcut\Alipay;
+namespace Pengxul\Pay\Tests\Shortcut\Alipay;
 
-use Yansongda\Artful\Exception\InvalidParamsException;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Plugin\Alipay\V2\AddPayloadSignaturePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\FormatPayloadBizContentPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Agreement\Pay\ClosePlugin as AgreementClosePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\App\ClosePlugin as AppClosePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Authorization\Pay\ClosePlugin as AuthorizationClosePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\H5\ClosePlugin as WapClosePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Mini\ClosePlugin as MiniClosePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Pos\ClosePlugin as PosClosePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Scan\ClosePlugin as ScanClosePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Web\ClosePlugin as WebClosePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\ResponsePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\StartPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\VerifySignaturePlugin;
-use Yansongda\Pay\Shortcut\Alipay\CloseShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Exception\InvalidParamsException;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Plugin\Alipay\V2\AddPayloadSignaturePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\FormatPayloadBizContentPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Agreement\Pay\ClosePlugin as AgreementClosePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\App\ClosePlugin as AppClosePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Authorization\Pay\ClosePlugin as AuthorizationClosePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\H5\ClosePlugin as WapClosePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Mini\ClosePlugin as MiniClosePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Pos\ClosePlugin as PosClosePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Scan\ClosePlugin as ScanClosePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Web\ClosePlugin as WebClosePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\ResponsePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\StartPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\VerifySignaturePlugin;
+use Pengxul\Pay\Shortcut\Alipay\CloseShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class CloseShortcutTest extends TestCase
 {

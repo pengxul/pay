@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay\Qra;
+namespace Pengxul\Pay\Tests\Plugin\Unipay\Qra;
 
-use Yansongda\Pay\Plugin\Unipay\Qra\CallbackPlugin;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Plugin\Unipay\Qra\CallbackPlugin;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Tests\TestCase;
 
 class CallbackPluginTest extends TestCase
 {

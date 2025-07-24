@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Jsb;
+namespace Pengxul\Pay\Tests\Plugin\Jsb;
 
-use Yansongda\Artful\Packer\QueryPacker;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Plugin\Jsb\StartPlugin;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Packer\QueryPacker;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Plugin\Jsb\StartPlugin;
+use Pengxul\Pay\Tests\TestCase;
 
 class StartPluginTest extends TestCase
 {

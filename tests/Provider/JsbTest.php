@@ -2,26 +2,26 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Provider;
+namespace Pengxul\Pay\Tests\Provider;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\ServerRequest;
 use Mockery;
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Artful\Contract\HttpClientInterface;
-use Yansongda\Artful\Exception\Exception;
-use Yansongda\Artful\Exception\InvalidParamsException;
-use Yansongda\Artful\Exception\InvalidResponseException;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Jsb\AddPayloadSignPlugin;
-use Yansongda\Pay\Plugin\Jsb\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Jsb\ResponsePlugin;
-use Yansongda\Pay\Plugin\Jsb\StartPlugin;
-use Yansongda\Pay\Plugin\Jsb\VerifySignaturePlugin;
-use Yansongda\Pay\Tests\Stubs\Plugin\FooPluginStub;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Contract\HttpClientInterface;
+use Pengxul\Artful\Exception\Exception;
+use Pengxul\Artful\Exception\InvalidParamsException;
+use Pengxul\Artful\Exception\InvalidResponseException;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Plugin\Jsb\AddPayloadSignPlugin;
+use Pengxul\Pay\Plugin\Jsb\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Jsb\ResponsePlugin;
+use Pengxul\Pay\Plugin\Jsb\StartPlugin;
+use Pengxul\Pay\Plugin\Jsb\VerifySignaturePlugin;
+use Pengxul\Pay\Tests\Stubs\Plugin\FooPluginStub;
+use Pengxul\Pay\Tests\TestCase;
 
 class JsbTest extends TestCase
 {

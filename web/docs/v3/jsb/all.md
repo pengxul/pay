@@ -28,12 +28,12 @@ $result = Pay::epay()->pay($allPlugins, $params);
 
 - 交易预创建
 
-  `\Yansongda\Pay\Plugin\Jsb\Pay\Scan\PayPlugin`
+  `\Pengxul\Pay\Plugin\Jsb\Pay\Scan\PayPlugin`
 
 - 交易退款接口
 
-  `\Yansongda\Pay\Plugin\Jsb\Pay\Scan\RefundPlugin`
+  `\Pengxul\Pay\Plugin\Jsb\Pay\Scan\RefundPlugin`
 
 - 交易/退款结果查询
 
-  `\Yansongda\Pay\Plugin\Jsb\Pay\Scan\QueryPlugin`
+  `\Pengxul\Pay\Plugin\Jsb\Pay\Scan\QueryPlugin`

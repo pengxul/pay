@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay\V2\Pay\Web;
+namespace Pengxul\Pay\Plugin\Alipay\V2\Pay\Web;
 
 use Closure;
-use Yansongda\Artful\Contract\PluginInterface;
-use Yansongda\Artful\Logger;
-use Yansongda\Artful\Rocket;
+use Pengxul\Artful\Contract\PluginInterface;
+use Pengxul\Artful\Logger;
+use Pengxul\Artful\Rocket;
 
 /**
  * @see https://opendocs.alipay.com/open/8dc9ebb3_alipay.trade.close?pathHash=0c042d2b&ref=api&scene=common

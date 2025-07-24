@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Shortcut\Unipay;
+namespace Pengxul\Pay\Tests\Shortcut\Unipay;
 
-use Yansongda\Artful\Plugin\AddPayloadBodyPlugin;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Pay\Plugin\Unipay\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Unipay\Open\AddPayloadSignaturePlugin;
-use Yansongda\Pay\Plugin\Unipay\Open\Pay\Web\PayPlugin;
-use Yansongda\Pay\Plugin\Unipay\Open\ResponseHtmlPlugin;
-use Yansongda\Pay\Plugin\Unipay\Open\StartPlugin;
-use Yansongda\Pay\Shortcut\Unipay\WebShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Plugin\AddPayloadBodyPlugin;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Pay\Plugin\Unipay\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Unipay\Open\AddPayloadSignaturePlugin;
+use Pengxul\Pay\Plugin\Unipay\Open\Pay\Web\PayPlugin;
+use Pengxul\Pay\Plugin\Unipay\Open\ResponseHtmlPlugin;
+use Pengxul\Pay\Plugin\Unipay\Open\StartPlugin;
+use Pengxul\Pay\Shortcut\Unipay\WebShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class WebShortcutTest extends TestCase
 {

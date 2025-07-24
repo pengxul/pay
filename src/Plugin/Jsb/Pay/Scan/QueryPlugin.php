@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Jsb\Pay\Scan;
+namespace Pengxul\Pay\Plugin\Jsb\Pay\Scan;
 
 use Closure;
-use Yansongda\Artful\Contract\PluginInterface;
-use Yansongda\Artful\Logger;
-use Yansongda\Artful\Rocket;
+use Pengxul\Artful\Contract\PluginInterface;
+use Pengxul\Artful\Logger;
+use Pengxul\Artful\Rocket;
 
 /**
  * @see https://github.com/yansongda/pay/pull/1002

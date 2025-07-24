@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\V3\Marketing\Coupon\Stock;
+namespace Pengxul\Pay\Plugin\Wechat\V3\Marketing\Coupon\Stock;
 
 use Closure;
-use Yansongda\Artful\Contract\PluginInterface;
-use Yansongda\Artful\Exception\ContainerException;
-use Yansongda\Artful\Exception\ServiceNotFoundException;
-use Yansongda\Artful\Logger;
-use Yansongda\Artful\Rocket;
+use Pengxul\Artful\Contract\PluginInterface;
+use Pengxul\Artful\Exception\ContainerException;
+use Pengxul\Artful\Exception\ServiceNotFoundException;
+use Pengxul\Artful\Logger;
+use Pengxul\Artful\Rocket;
 
-use function Yansongda\Pay\get_provider_config;
+use function Pengxul\Pay\get_provider_config;
 
 /**
  * @see https://pay.weixin.qq.com/docs/merchant/apis/cash-coupons/stock/create-coupon-stock.html

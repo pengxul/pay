@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\V2\Pay\Authorization\Auth;
+namespace Pengxul\Pay\Tests\Plugin\Alipay\V2\Pay\Authorization\Auth;
 
-use Yansongda\Artful\Direction\ResponseDirection;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Authorization\Auth\CancelPlugin;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Direction\ResponseDirection;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Authorization\Auth\CancelPlugin;
+use Pengxul\Pay\Tests\TestCase;
 
 class CancelPluginTest extends TestCase
 {

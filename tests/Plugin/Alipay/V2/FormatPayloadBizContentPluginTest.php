@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\V2;
+namespace Pengxul\Pay\Tests\Plugin\Alipay\V2;
 
-use Yansongda\Pay\Plugin\Alipay\V2\FormatPayloadBizContentPlugin;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Tests\TestCase;
-use Yansongda\Supports\Collection;
+use Pengxul\Pay\Plugin\Alipay\V2\FormatPayloadBizContentPlugin;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Tests\TestCase;
+use Pengxul\Supports\Collection;
 
 class FormatPayloadBizContentPluginTest extends TestCase
 {

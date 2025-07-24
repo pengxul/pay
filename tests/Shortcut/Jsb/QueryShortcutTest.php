@@ -1,16 +1,16 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Shortcut\Jsb;
+namespace Pengxul\Pay\Tests\Shortcut\Jsb;
 
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Pay\Plugin\Jsb\AddPayloadSignPlugin;
-use Yansongda\Pay\Plugin\Jsb\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Jsb\Pay\Scan\QueryPlugin;
-use Yansongda\Pay\Plugin\Jsb\ResponsePlugin;
-use Yansongda\Pay\Plugin\Jsb\StartPlugin;
-use Yansongda\Pay\Plugin\Jsb\VerifySignaturePlugin;
-use Yansongda\Pay\Shortcut\Jsb\QueryShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Pay\Plugin\Jsb\AddPayloadSignPlugin;
+use Pengxul\Pay\Plugin\Jsb\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Jsb\Pay\Scan\QueryPlugin;
+use Pengxul\Pay\Plugin\Jsb\ResponsePlugin;
+use Pengxul\Pay\Plugin\Jsb\StartPlugin;
+use Pengxul\Pay\Plugin\Jsb\VerifySignaturePlugin;
+use Pengxul\Pay\Shortcut\Jsb\QueryShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class QueryShortcutTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\V2;
+namespace Pengxul\Pay\Tests\Plugin\Alipay\V2;
 
-use Yansongda\Pay\Plugin\Alipay\V2\ResponseInvokeStringPlugin;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Plugin\Alipay\V2\ResponseInvokeStringPlugin;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Tests\TestCase;
 
 class ResponseInvokeStringPluginTest extends TestCase
 {

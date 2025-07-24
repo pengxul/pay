@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Stubs;
+namespace Pengxul\Pay\Tests\Stubs;
 
 class FooParserStub
 {

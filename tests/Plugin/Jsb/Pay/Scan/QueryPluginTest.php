@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Jsb\Pay\Scan;
+namespace Pengxul\Pay\Tests\Plugin\Jsb\Pay\Scan;
 
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Plugin\Jsb\Pay\Scan\QueryPlugin;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Plugin\Jsb\Pay\Scan\QueryPlugin;
+use Pengxul\Pay\Tests\TestCase;
 
 class QueryPluginTest extends TestCase
 {

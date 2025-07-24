@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Unipay\Qra\Scan;
+namespace Pengxul\Pay\Plugin\Unipay\Qra\Scan;
 
 use Closure;
 use Throwable;
-use Yansongda\Artful\Contract\PluginInterface;
-use Yansongda\Artful\Exception\ContainerException;
-use Yansongda\Artful\Exception\ServiceNotFoundException;
-use Yansongda\Artful\Logger;
-use Yansongda\Artful\Packer\XmlPacker;
-use Yansongda\Artful\Rocket;
-use Yansongda\Supports\Str;
+use Pengxul\Artful\Contract\PluginInterface;
+use Pengxul\Artful\Exception\ContainerException;
+use Pengxul\Artful\Exception\ServiceNotFoundException;
+use Pengxul\Artful\Logger;
+use Pengxul\Artful\Packer\XmlPacker;
+use Pengxul\Artful\Rocket;
+use Pengxul\Supports\Str;
 
-use function Yansongda\Pay\get_provider_config;
+use function Pengxul\Pay\get_provider_config;
 
 /**
  * @see https://up.95516.com/open/openapi/doc?index_1=1&index_2=1&chapter_1=235&chapter_2=254

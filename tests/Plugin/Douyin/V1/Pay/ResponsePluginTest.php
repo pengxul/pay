@@ -1,14 +1,14 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Douyin\V1\Pay;
+namespace Pengxul\Pay\Tests\Plugin\Douyin\V1\Pay;
 
 use GuzzleHttp\Psr7\Response;
-use Yansongda\Artful\Exception\InvalidResponseException;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Plugin\Douyin\V1\Pay\ResponsePlugin;
-use Yansongda\Pay\Tests\TestCase;
-use Yansongda\Supports\Collection;
+use Pengxul\Artful\Exception\InvalidResponseException;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Plugin\Douyin\V1\Pay\ResponsePlugin;
+use Pengxul\Pay\Tests\TestCase;
+use Pengxul\Supports\Collection;
 
 class ResponsePluginTest extends TestCase
 {

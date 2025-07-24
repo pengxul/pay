@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests;
+namespace Pengxul\Pay\Tests;
 
 use Hyperf\Context\ApplicationContext;
 use Hyperf\Pimple\ContainerFactory;
-use Yansongda\Pay\Pay;
+use Pengxul\Pay\Pay;
 
 /**
  * @internal

@@ -2,8 +2,8 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Event;
+namespace Pengxul\Pay\Event;
 
-use Yansongda\Artful\Event\Event;
+use Pengxul\Artful\Event\Event;
 
 class PayEnd extends Event {}

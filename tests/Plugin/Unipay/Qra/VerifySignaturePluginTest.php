@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay\Qra;
+namespace Pengxul\Pay\Tests\Plugin\Unipay\Qra;
 
-use Yansongda\Artful\Direction\NoHttpRequestDirection;
-use Yansongda\Pay\Plugin\Unipay\Qra\VerifySignaturePlugin;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Tests\TestCase;
-use Yansongda\Supports\Collection;
+use Pengxul\Artful\Direction\NoHttpRequestDirection;
+use Pengxul\Pay\Plugin\Unipay\Qra\VerifySignaturePlugin;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Tests\TestCase;
+use Pengxul\Supports\Collection;
 
 class VerifySignaturePluginTest extends TestCase
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Douyin\V1\Pay;
+namespace Pengxul\Pay\Tests\Plugin\Douyin\V1\Pay;
 
-use Yansongda\Artful\Exception\InvalidConfigException;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Plugin\Douyin\V1\Pay\AddPayloadSignaturePlugin;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Artful\Exception\InvalidConfigException;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Plugin\Douyin\V1\Pay\AddPayloadSignaturePlugin;
+use Pengxul\Pay\Tests\TestCase;
 
 class AddPayloadSignaturePluginTest extends TestCase
 {

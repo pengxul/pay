@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Alipay\V2\Fund\Transfer\Bill;
+namespace Pengxul\Pay\Plugin\Alipay\V2\Fund\Transfer\Bill;
 
 use Closure;
-use Yansongda\Artful\Contract\PluginInterface;
-use Yansongda\Artful\Logger;
-use Yansongda\Artful\Rocket;
+use Pengxul\Artful\Contract\PluginInterface;
+use Pengxul\Artful\Logger;
+use Pengxul\Artful\Rocket;
 
 /**
  * @see https://opendocs.alipay.com/open/76606b11_alipay.data.dataservice.bill.downloadurl.query?pathHash=425f62c6&ref=api&scene=common

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Traits;
+namespace Pengxul\Pay\Tests\Traits;
 
-use Yansongda\Pay\Pay;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Tests\Stubs\Traits\SupportServiceProviderPluginStub;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Pay;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Tests\Stubs\Traits\SupportServiceProviderPluginStub;
+use Pengxul\Pay\Tests\TestCase;
 
 class SupportServiceProviderTraitTest extends TestCase
 {

@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Plugin\Wechat\V3\Extend\ProfitSharing;
+namespace Pengxul\Pay\Plugin\Wechat\V3\Extend\ProfitSharing;
 
 use Closure;
-use Yansongda\Artful\Contract\PluginInterface;
-use Yansongda\Artful\Exception\InvalidParamsException;
-use Yansongda\Artful\Logger;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Exception\Exception;
+use Pengxul\Artful\Contract\PluginInterface;
+use Pengxul\Artful\Exception\InvalidParamsException;
+use Pengxul\Artful\Logger;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Exception\Exception;
 
-use function Yansongda\Artful\filter_params;
+use function Pengxul\Artful\filter_params;
 
 /**
  * @see https://pay.weixin.qq.com/docs/partner/apis/profit-sharing/bill-shipment/split-bill.html

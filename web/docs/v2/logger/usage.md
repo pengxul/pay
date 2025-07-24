@@ -20,7 +20,7 @@ SDK 自带日志系统，如果需要指定日志文件或日志级别，请 con
 :::
 
 ```php
-use Yansongda\Pay\Log;
+use Pengxul\Pay\Log;
 
 Log::debug('Paying...', $order->all());
 ```

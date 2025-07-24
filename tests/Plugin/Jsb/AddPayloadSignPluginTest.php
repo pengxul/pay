@@ -1,17 +1,17 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Jsb;
+namespace Pengxul\Pay\Tests\Plugin\Jsb;
 
-use Yansongda\Artful\Contract\ConfigInterface;
-use Yansongda\Artful\Exception\InvalidConfigException;
-use Yansongda\Artful\Exception\InvalidParamsException;
-use Yansongda\Artful\Rocket;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Jsb\AddPayloadSignPlugin;
-use Yansongda\Pay\Tests\TestCase;
-use Yansongda\Supports\Collection;
-use Yansongda\Supports\Config;
+use Pengxul\Artful\Contract\ConfigInterface;
+use Pengxul\Artful\Exception\InvalidConfigException;
+use Pengxul\Artful\Exception\InvalidParamsException;
+use Pengxul\Artful\Rocket;
+use Pengxul\Pay\Exception\Exception;
+use Pengxul\Pay\Pay;
+use Pengxul\Pay\Plugin\Jsb\AddPayloadSignPlugin;
+use Pengxul\Pay\Tests\TestCase;
+use Pengxul\Supports\Collection;
+use Pengxul\Supports\Config;
 
 class AddPayloadSignPluginTest extends TestCase
 {

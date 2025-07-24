@@ -1,17 +1,17 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Shortcut\Alipay;
+namespace Pengxul\Pay\Tests\Shortcut\Alipay;
 
-use Yansongda\Pay\Plugin\Alipay\V2\AddPayloadSignaturePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\AddRadarPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\FormatPayloadBizContentPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\Pay\Mini\PayPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\ResponsePlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\StartPlugin;
-use Yansongda\Pay\Plugin\Alipay\V2\VerifySignaturePlugin;
-use Yansongda\Artful\Plugin\ParserPlugin;
-use Yansongda\Pay\Shortcut\Alipay\MiniShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Pay\Plugin\Alipay\V2\AddPayloadSignaturePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\AddRadarPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\FormatPayloadBizContentPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\Pay\Mini\PayPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\ResponsePlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\StartPlugin;
+use Pengxul\Pay\Plugin\Alipay\V2\VerifySignaturePlugin;
+use Pengxul\Artful\Plugin\ParserPlugin;
+use Pengxul\Pay\Shortcut\Alipay\MiniShortcut;
+use Pengxul\Pay\Tests\TestCase;
 
 class MiniShortcutTest extends TestCase
 {
